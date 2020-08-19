@@ -1,0 +1,21 @@
+{
+  "name": "meli-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "BFF para busca de produtos no mercado livre",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -q src/index.js",
+    "test": "mocha src/**/*.spec.js"
+  },
+  "keywords": [],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com>",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "superagent": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
