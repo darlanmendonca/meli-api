@@ -4,11 +4,11 @@ import { list, single } from './products.controller.js'
 const router = express.Router()
 
 router
-  .route('/products')
+  .route('/')
   .get(list)
 
 router
-  .route('/products/:id')
+  .route('/:id')
   .get(single)
 
 export default router

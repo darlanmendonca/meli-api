@@ -7,6 +7,6 @@ const app = express()
 
 app
   .use(cors())
-  .use(products)
+  .use('/products', products)
 
 app.listen(PORT)
